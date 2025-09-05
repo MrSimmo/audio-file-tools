@@ -1,4 +1,4 @@
-# audio-file-tools
+# Audio File Tools
 This repo is my general storage for home-made quick and dirty scripts/tools to manipulate audio files.
 
 Help yourself, hope they're useful. For these, I'll probably not update them with any requests so please don't log issues.
