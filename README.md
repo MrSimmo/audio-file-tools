@@ -36,9 +36,10 @@ Here are some of the tools:
   1. Prompt the user to whether we're processing an entire album or a collection (compilation of songs)
   2. Uses HTDEMUCS in the highest quality setting (Demucs4_FT) and attempts to use Apple Silicon GPU encoding if possible
   3. Uses ffmpeg to copy the id3 tags from the source files to the destination and then add useful other info such as Drumless to comments and Demucs model used with kid3.
-  4. Uses kid3 to copy the cover art/picture from the source files to the desintation.
-  5. Uses ffmpeg to set id3 tags for Album or Compilation etc so music libraries can process them properly.
-  6. Uses RSGAIN to calculate and set ReplayGain tags to the output files. Noting RSGAIN doesnt support all Replaygain tags properly so use kid3 to write those.
+  4. Add compilation and album artist as Various Artists id3 if usr chose compilation in (1).
+  5. Uses kid3 to copy the cover art/picture from the source files to the desintation.
+  6. Uses ffmpeg to set id3 tags for Album or Compilation etc so music libraries can process them properly.
+  7. Uses RSGAIN to calculate and set ReplayGain tags to the output files. Noting RSGAIN doesnt support all Replaygain tags properly so use kid3 to write those. Calcuate Album gain if the user chose album in (1)
 
 
 = The reason I wrote this was that I have a large collection of purchased music files in FLAC formats. I'm also a drummer. I want to be
