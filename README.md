@@ -42,5 +42,5 @@ Here are some of the tools:
 
 
 = The reason I wrote this was that I have a large collection of purchased music files in FLAC formats. I'm also a drummer. I want to be
-  able to play along to real backing music. I don't want to pay a heft ongoing subscription to services such as Moises, and the other
+  able to play along to real backing music. I don't want to pay a hefty ongoing subscription to commercial services such as Moises, and the other
   tools are missing features that I want/need.
