@@ -10,14 +10,14 @@ Essentially I wanted solutions to take input audio files, remove the drum track 
 
 Here are some of the tools:
 
-bulk_convert_to_mp3.sh
+**bulk_convert_to_mp3.sh**
 
 - This uses ffmpeg to convert a whole folder (and subfolders) full of audio files (FLAC, WAV, MP4 etc) to MP3.
 
 = The reason I wrote this was that the Roland V71 only accepts WAV and MP3 files in the song player (sigh).
 
 
-normalise_audio_file_folder.sh
+**normalise_audio_file_folder.sh**
 
 - This uses fmpeg to normalise a whole folder (and subfolders) full of audio files (FLAC, WAV, MP4, MP3 etc).
 - It normalises to -1db using ffmpeg's linear mode (i.e. reads the whole track and raise the volume for the whole track instead of parts)
@@ -27,7 +27,7 @@ normalise_audio_file_folder.sh
   tags (again sigh). This means that when you play back songs using the song player, they play at different volumes.
 
 
-remove-drumtrack-using-demucs.sh
+**remove-drumtrack-using-demucs.sh**
 
 - This is quite a complicated script. It removes the drum track from a folder of FLAC music files using HTDEMUCS. But it does
   other things too.
