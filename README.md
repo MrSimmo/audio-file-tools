@@ -14,7 +14,7 @@ bulk_convert_to_mp3.sh
 
 - This uses ffmpeg to convert a whole folder (and subfolders) full of audio files (FLAC, WAV, MP4 etc) to MP3.
 
-= The reason I wrote this was that the Roland V71 only accepts WAV andn MP3 files in the song player (sigh).
+= The reason I wrote this was that the Roland V71 only accepts WAV and MP3 files in the song player (sigh).
 
 
 normalise_audio_file_folder.sh
