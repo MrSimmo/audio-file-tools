@@ -27,6 +27,32 @@ Here are some of the tools:
   tags (again sigh). This means that when you play back songs using the song player, they play at different volumes.
 
 
+**drumless_demux.py**
+
+A much improved version of the Drumless demuxer script. This version allows the use of the latest and highest quality stem separation models, now rivalling or sometimes beating commercial offerings on SDR/fullness/bleedless.
+
+Changes are:
+
+1. Changes the backend stem splitting tool to use python audio separator. This allows us to use the most up to date models such as BS-Roformer-SW for much improved quality and speed.
+
+2. Now allows multiple and hi-res input file types.
+
+3. Ported it to Python with improved error handling. This lays the ground work for a web based demuxer imterface. 
+
+4. Decreased the amount of external tools in favour of python libraries. Note - I would shift the replaygain to ffmpeg but ffmpeg isn't as good as rsgain at this point for replaygain work.
+
+5. Fixes a ffmpeg command error (I was amerging instead of amixing which resulted in muddied outputs)
+
+6. Added recursive folder support.
+
+7. Added extra support to output a second (mp3) file which is prepared to load straight into the Roland V71 drum module.
+
+8. Fixed bugs in the quality settings so that the output now is much higher than before.
+
+
+
+
+
 **OLD: (use the much newer python demuxer script!)... remove-drumtrack-using-demucs.sh**
 
 - This is quite a complicated script. It removes the drum track from a folder of FLAC music files using HTDEMUCS. But it does
