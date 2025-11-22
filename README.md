@@ -27,7 +27,7 @@ Here are some of the tools:
   tags (again sigh). This means that when you play back songs using the song player, they play at different volumes.
 
 
-**remove-drumtrack-using-demucs.sh**
+**OLD: (use the much newer python demuxer script!)... remove-drumtrack-using-demucs.sh**
 
 - This is quite a complicated script. It removes the drum track from a folder of FLAC music files using HTDEMUCS. But it does
   other things too.
